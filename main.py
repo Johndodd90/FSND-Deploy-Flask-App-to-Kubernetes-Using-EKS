@@ -120,5 +120,5 @@ def _get_jwt(user_data):
 
 
 if __name__ == '__main__':
-    APP.run(host='127.0.0.1', port=8000, debug=True)
-    # Changed to port to 8000 from 8080 as there was an OS error
+    APP.run(port=8080, debug=True)
+    # host='127.0.0.1',  removed from above line
